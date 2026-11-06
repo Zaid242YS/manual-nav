@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Manual | Islamic Business Funding Navigator</title>
+<meta name="description" content="Step-by-step user manual for the Islamic Business Funding Navigator, a Creed-to-Commerce™ tool by The Balanced Middle Path Academy, LLC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--green:#0f3d2e;--green-2:#1b5e43;--green-3:#e4efe8;--gold:#b8892b;--gold-2:#f3e6c4;--brown:#6b4423;--ink:#1d2622;--muted:#5d6a63;--line:#d9d2c3;--paper:#fbf8f0;--card:#fff;--bad:#9b2c2c;
+--serif:'Amiri','Times New Roman',serif;--sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:16px}
+body{margin:0;background:var(--paper);color:var(--ink);font:15.5px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--serif);color:var(--green);line-height:1.25;margin:0 0 .5rem}
+h1{font-size:2.2rem}h2{font-size:1.7rem;margin-top:2.6rem;padding-bottom:.35rem;border-bottom:3px solid var(--gold-2)}h3{font-size:1.3rem;margin-top:1.6rem}h4{font-size:1.08rem;margin-top:1.1rem}
+p{margin:0 0 .85rem}a{color:var(--green-2)}
+code,.k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.86em;background:#efe9d8;border-radius:5px;padding:1px 6px}
+.k{background:var(--green);color:#fff;font-family:var(--sans);font-weight:600;padding:2px 9px;border-radius:7px;white-space:nowrap;font-size:.8em}
+.k.gold{background:var(--gold)}.k.red{background:#fff;color:var(--bad);border:1px solid #e6b9b9}.k.light{background:#fff;color:var(--green);border:1px solid var(--green)}
+.top{background:linear-gradient(135deg,var(--green),#124a37 70%,#2a5a3f);color:#fff;border-bottom:4px solid var(--gold);padding:22px 16px;text-align:center}
+.top .bsm{font-family:var(--serif);font-size:1.9rem;direction:rtl;color:var(--gold-2);line-height:1.4}
+.top h1{color:#fff;margin:.2rem 0}.top p{color:#cfe2d8;margin:0;font-size:.9rem}
+.layout{max-width:1160px;margin:0 auto;padding:0 16px;display:grid;grid-template-columns:250px minmax(0,1fr);gap:36px}
+nav.toc{position:sticky;top:0;align-self:start;max-height:100vh;overflow:auto;padding:22px 0;font-size:.86rem}
+nav.toc b{font:700 .72rem var(--sans);letter-spacing:1.2px;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:8px}
+nav.toc a{display:block;padding:5px 10px;border-left:3px solid var(--line);color:var(--ink);text-decoration:none}
+nav.toc a:hover{border-color:var(--gold);background:var(--gold-2)}
+nav.toc a.sub{padding-left:22px;font-size:.8rem;color:var(--muted)}
+main{padding:10px 0 60px;min-width:0}
+.eyebrow{font:700 .72rem var(--sans);letter-spacing:1.2px;text-transform:uppercase;color:var(--gold)}
+.lead{font-size:1.08rem;color:#33423a}
+.callout{border-radius:12px;padding:14px 16px;margin:1rem 0;border:1px solid;font-size:.94rem}
+.callout b.t{display:block;font:700 .72rem var(--sans);letter-spacing:1px;text-transform:uppercase;margin-bottom:2px}
+.tip{background:var(--green-3);border-color:#bfd6c8}.tip b.t{color:var(--green-2)}
+.warn{background:var(--gold-2);border-color:#e3cf93}.warn b.t{color:#7a5a0c}
+.stop{background:#fbeaea;border-color:#e6b9b9}.stop b.t{color:var(--bad)}
+table{border-collapse:collapse;width:100%;font-size:.88rem;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:.6rem 0 1.2rem}
+th,td{padding:9px 11px;border-bottom:1px solid #eee7d6;text-align:left;vertical-align:top}
+th{background:var(--green);color:#fff;font:600 .78rem var(--sans)}
+tbody tr:nth-child(even){background:#fcfaf4}
+.tw{overflow-x:auto}.tw table{min-width:560px}
+ol.steps{counter-reset:s;list-style:none;padding:0;margin:.5rem 0 1rem}
+ol.steps>li{counter-increment:s;position:relative;padding:0 0 12px 42px}
+ol.steps>li:before{content:counter(s);position:absolute;left:0;top:0;width:28px;height:28px;border-radius:50%;background:var(--green);color:#fff;font:700 .82rem var(--sans);display:grid;place-items:center}
+ul{padding-left:20px}li{margin:3px 0}
+.formula{background:#fff;border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:8px;padding:10px 14px;margin:.6rem 0;font-size:.9rem}
+.formula b{color:var(--green)}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.card h4{margin-top:0}
+.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:1rem 0}
+.stage{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:9px;font-size:.8rem}
+.stage b{display:block;font-family:var(--serif);font-size:1.05rem;color:var(--green)}
+dl dt{font-weight:700;color:var(--green);margin-top:.8rem}dl dd{margin:0 0 0 0}
+.printbtn{appearance:none;border:1px solid var(--green);background:#fff;color:var(--green);font:600 .85rem var(--sans);border-radius:10px;padding:8px 14px;cursor:pointer}
+.printbtn:hover{background:var(--green-3)}
+footer{background:var(--green);color:#cfe2d8;border-top:4px solid var(--gold);padding:22px 16px;font-size:.82rem;text-align:center}
+footer b{color:var(--gold-2);font-family:var(--serif);font-size:1.05rem}
+@media(max-width:900px){.layout{grid-template-columns:1fr;gap:0}nav.toc{position:static;max-height:none;border-bottom:1px solid var(--line);padding:14px 0}nav.toc a.sub{display:none}.stages{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr}}
+@media print{.top{background:#fff!important;color:#000;border-bottom:2px solid #000}.top h1,.top p,.top .bsm{color:#000}nav.toc,.printbtn{display:none}.layout{display:block}h2{page-break-after:avoid}.callout,.card,table,.formula{page-break-inside:avoid}footer{background:#fff;color:#000}footer b{color:#000}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="bsm" lang="ar">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
+  <h1>Islamic Business Funding Navigator: User Manual</h1>
+  <p>Creed-to-Commerce™ &nbsp;|&nbsp; The Balanced Middle Path Academy, LLC &nbsp;|&nbsp; <a href="index.html" style="color:#f3e6c4">Open the app</a></p>
+</header>
+
+<div class="layout">
+<nav class="toc" aria-label="Manual contents">
+  <b>Contents</b>
+  <a href="#welcome">1. Welcome</a>
+  <a href="#quick">2. Quick start (10 minutes)</a>
+  <a href="#tour">3. Screen tour and buttons</a>
+  <a href="#creed">4. Stage 1: Creed</a>
+  <a href="#clarity">5. Stage 2: Clarity</a>
+  <a class="sub" href="#fields">Field guide</a>
+  <a class="sub" href="#readiness">Reading the readiness score</a>
+  <a href="#compare">6. Stage 3: Compare</a>
+  <a class="sub" href="#numbers">How numbers are calculated</a>
+  <a class="sub" href="#assump">Planning assumptions</a>
+  <a href="#contract">7. Stage 4: Contract</a>
+  <a class="sub" href="#fitlogic">How best fit is chosen</a>
+  <a href="#commerce">8. Stage 5: Commerce</a>
+  <a href="#reports">9. PDF reports</a>
+  <a href="#workflows">10. Workflows by role</a>
+  <a href="#data">11. Saving, privacy, sample data</a>
+  <a href="#models">12. The four structures at a glance</a>
+  <a href="#deploy">13. Deploy with GitHub and Vercel</a>
+  <a href="#custom">14. Customising</a>
+  <a href="#trouble">15. Troubleshooting and FAQ</a>
+  <a href="#glossary">16. Glossary</a>
+  <a href="#notice">17. Important notice</a>
+</nav>
+
+<main>
+<button class="printbtn" onclick="window.print()" type="button">Print or save this manual as PDF</button>
+
+<section id="welcome">
+<h2 style="margin-top:1.2rem">1. Welcome</h2>
+<p class="lead">The Islamic Business Funding Navigator helps SMEs, founders and investment consultants answer four practical questions: <em>Where does the business really stand? Which Islamic financing structure fits? What will it cost and who carries which risk? How do we run it so the business is sustainable and serves real customer needs?</em></p>
+<p>It compares <b>Murabaha</b> (cost-plus sale), <b>Ijarah</b> (lease), <b>Musharakah</b> (equity partnership, in its diminishing form) and <b>Mudarabah</b> (trust-based profit partnership). It follows the Creed-to-Commerce™ journey so the creed leads and commerce follows.</p>
+<div class="stages">
+  <div class="stage"><b>1. Creed</b>Intention and ethical screen</div>
+  <div class="stage"><b>2. Clarity</b>Honest business status</div>
+  <div class="stage"><b>3. Compare</b>Costs and risk-sharing</div>
+  <div class="stage"><b>4. Contract</b>Best fit and operations</div>
+  <div class="stage"><b>5. Commerce</b>Sustainability pathway</div>
+</div>
+<h3>Who it is for</h3>
+<ul>
+  <li><b>SME owners</b> deciding how to fund equipment, stock, premises or growth.</li>
+  <li><b>Founders</b> of early ventures who need to understand what a financier or partner will expect.</li>
+  <li><b>Investment and business consultants</b> preparing client cases, board papers and funder conversations.</li>
+  <li><b>Capital providers</b> who want to see how the structures share risk before proposing terms.</li>
+</ul>
+<div class="callout warn"><b class="t">What this tool is, and is not</b>It produces indicative, educational estimates from your inputs and editable assumptions. It is not a quote, a fatwa, or Shariah, legal, tax or investment advice. Every real contract needs review by a qualified Shariah scholar or board and a licensed professional.</div>
+</section>
+
+<section id="quick">
+<h2>2. Quick start (10 minutes)</h2>
+<ol class="steps">
+  <li><b>Try the sample first.</b> Click <span class="k gold">Load Sample Data</span> in the top bar. A fictional bakery case fills every screen and a gold banner reminds you it is sample data.</li>
+  <li><b>Walk the five stages</b> using the tabs under the header: Creed, Clarity, Compare, Contract, Commerce. Notice how the charts and rankings respond.</li>
+  <li><b>Download a report.</b> Click <span class="k light">Download PDF Report</span>. The PDF carries a SAMPLE DATA watermark.</li>
+  <li><b>Clear the sample.</b> Click <span class="k red">Remove Sample Data</span> and confirm. All fields return to blank.</li>
+  <li><b>Enter a real case.</b> Start at Creed, complete Clarity, then read Compare, Contract and Commerce in order.</li>
+  <li><b>Create your documents.</b> Open the <b>Reports</b> tab and download the Findings Report, Operations Brief or Client Snapshot.</li>
+</ol>
+<div class="callout tip"><b class="t">Tip</b>Fill in what you know and leave the rest blank. The app never blocks you. Blank answers lower the <em>confidence</em> of the recommendation rather than stopping the analysis.</div>
+</section>
+
+<section id="tour">
+<h2>3. Screen tour and buttons</h2>
+<h3>Top bar: your standard buttons</h3>
+<div class="tw"><table>
+<thead><tr><th style="width:210px">Button</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td><span class="k gold">Load Sample Data</span></td><td>Fills the app with a fictional bakery case so you can explore or demonstrate. If you already have your own entries, it asks before replacing them.</td></tr>
+<tr><td><span class="k red">Remove Sample Data</span></td><td>Clears every entry (profile, funding need, Creed ticks, assumptions, checklist ticks and chosen structure) and returns the form to blank. It asks for confirmation and cannot be undone. The same button also appears in the sample banner and on the Reports tab.</td></tr>
+<tr><td><span class="k light">Download PDF Report</span></td><td>Builds and downloads the full Funding Findings Report from your current entries.</td></tr>
+<tr><td><span class="k" style="background:transparent;border:1px solid #888;color:#444">Print</span></td><td>Opens your browser's print dialog with a clean print layout. Choose "Save as PDF" as a fallback if the built-in PDF export is unavailable.</td></tr>
+</tbody></table></div>
+<h3>Stage tabs</h3>
+<p>The six tabs under the header (Creed, Clarity, Compare, Contract, Commerce, Reports) can be opened in any order. Each stage also has Back and Continue buttons at the bottom. Results update the moment you change any field.</p>
+<h3>The sample-data banner</h3>
+<p>While sample data is loaded (even if you edit it), a gold banner shows at the top of every stage and generated PDFs carry a diagonal SAMPLE DATA watermark. The banner disappears only when you use <b>Remove Sample Data</b>. This protects you from sending illustrative numbers to a real client by accident.</p>
+</section>
+
+<section id="creed">
+<h2>4. Stage 1: Creed</h2>
+<p>Every Islamic financing structure rests on a permissible activity and honest dealing. This stage puts intention first.</p>
+<h3>The Creed screen</h3>
+<p>Tick each statement only if it is true today:</p>
+<ul>
+  <li><b>Core activity is halal.</b> The products, services and customers are permissible. No structure can make an impermissible activity permissible. If this is unticked, the readiness score is reduced and the app reminds you to resolve it first.</li>
+  <li><b>No reliance on interest-based products.</b> The project will not depend on interest-bearing loans or similar dealings.</li>
+  <li><b>Truthful accounts.</b> Records and projections given to funders and partners are accurate and complete.</li>
+  <li><b>Terms are clear before signing.</b> Price, term, ownership and obligations will be understood and written before money moves.</li>
+  <li><b>Zakat and charity are planned for.</b> Includes zakat on eligible assets and a charity route for late-payment charges.</li>
+</ul>
+<p>A status chip shows how many of the five are confirmed. These count for 15 of the 100 readiness points.</p>
+<h3>Who and why</h3>
+<p>Choose your role, enter the business or client name, who prepared the analysis, and the currency. Then write a <b>purpose statement</b>: what good the funding will do and for whom. The name, preparer and purpose appear on your PDFs. The currency changes the symbols used across the app (PDFs use the three-letter code, such as USD or MYR).</p>
+</section>
+
+<section id="clarity">
+<h2>5. Stage 2: Clarity</h2>
+<p>Clarity is an honest snapshot of the business and the funding request. Use real, recent numbers. A sound recommendation depends on them.</p>
+<h3 id="fields">Field guide</h3>
+<h4>Business profile</h4>
+<div class="tw"><table>
+<thead><tr><th style="width:220px">Field</th><th>What to enter</th></tr></thead>
+<tbody>
+<tr><td>Sector</td><td>Pick the closest sector. Used for context in reports.</td></tr>
+<tr><td>Stage</td><td>Idea, start-up (under 2 years), growing (2–5 years) or established (5+). Early stages lower the fit of fixed-payment structures and favour partnership-style structures only where records are strong.</td></tr>
+<tr><td>Years trading</td><td>Years with paying customers. Five years or more earns the full trading-history points.</td></tr>
+<tr><td>Annual revenue</td><td>Last 12 months. Used to test whether payments are a reasonable share of revenue.</td></tr>
+<tr><td>Net profit margin (%)</td><td>Net profit as a percentage of revenue. For your reference in reports.</td></tr>
+<tr><td>Monthly operating cash flow</td><td>Cash the business generates each month <em>before</em> any financing payments. This is the most important number for payment cover.</td></tr>
+<tr><td>Existing monthly debt payments</td><td>All current financing instalments, rentals or loan payments per month.</td></tr>
+<tr><td>Cash reserves</td><td>Cash available today that is not committed to operations.</td></tr>
+<tr><td>Collateral available</td><td>Value of assets you can offer as security.</td></tr>
+<tr><td>Management experience</td><td>Years of experience in this field. Ten or more earns the full management points.</td></tr>
+<tr><td>Quality of financial records</td><td>1 (none) to 5 (audited or reviewed statements). Strongly influences partnership structures, which depend on trust and reporting.</td></tr>
+<tr><td>Evidence of customer demand</td><td>1 (assumption only) to 5 (contracts or waiting list). Be honest; this checks whether the need you serve is proven.</td></tr>
+<tr><td>Repeat-customer share (%)</td><td>Share of revenue from returning customers.</td></tr>
+<tr><td>Core customer need you serve</td><td>One or two sentences. A clear statement improves the customer-need alignment indicator.</td></tr>
+</tbody></table></div>
+<h4>Funding need</h4>
+<div class="tw"><table>
+<thead><tr><th style="width:220px">Field</th><th>What to enter</th></tr></thead>
+<tbody>
+<tr><td>Total project cost</td><td>Everything the project will cost, including your own contribution.</td></tr>
+<tr><td>Your own contribution</td><td>Cash or assets you put in. The financed amount is cost minus this (your contribution is capped at 90% of cost).</td></tr>
+<tr><td>Term (months)</td><td>Length of the financing, from 6 to 240 months.</td></tr>
+<tr><td>Expected annual return on the project (%)</td><td>The return you honestly expect on the funded project. Drives the profit-sharing structures and the scenarios. If blank, 12% is assumed and a note says so.</td></tr>
+<tr><td>Main use of funds</td><td>Equipment, vehicles, inventory, premises, working capital, expansion, a specific project or a new venture. This is the biggest driver of fit.</td></tr>
+<tr><td>Identifiable asset to buy or lease?</td><td>Yes if there is a specific, tangible asset a financier can buy and sell or lease to you.</td></tr>
+<tr><td>Capital partner already identified?</td><td>Yes if a partner or investor is ready to put in money. Matters most for Mudarabah.</td></tr>
+<tr><td>Willingness to share ownership and decisions</td><td>1 (keep full control) to 5 (welcome a hands-on partner).</td></tr>
+<tr><td>Preference for fixed, predictable payments</td><td>1 (prefer payments that flex with profit) to 5 (must be fixed and certain).</td></tr>
+<tr><td>How predictable are project profits?</td><td>1 (highly uncertain) to 5 (very stable or contracted).</td></tr>
+<tr><td>Risk appetite</td><td>1 (very cautious) to 5 (high).</td></tr>
+</tbody></table></div>
+
+<h3 id="readiness">Reading the readiness score</h3>
+<p>The ring shows a score out of 100, built from seven components:</p>
+<div class="tw"><table>
+<thead><tr><th>Component</th><th>Points</th><th>How it is earned</th></tr></thead>
+<tbody>
+<tr><td>Creed screen</td><td>15</td><td>3 points per confirmed statement. If the halal check is unticked, 8 points are deducted.</td></tr>
+<tr><td>Financial records</td><td>15</td><td>Records rating ÷ 5 × 15.</td></tr>
+<tr><td>Trading history</td><td>15</td><td>Years trading, capped at 5 years for full marks.</td></tr>
+<tr><td>Cash-flow cover</td><td>20</td><td>Based on the payment cover ratio (DSCR) using the Murabaha payment as a proxy: 0 points at 0.8x, full points at 1.5x.</td></tr>
+<tr><td>Security and equity</td><td>15</td><td>Up to 10 for collateral + reserves + own contribution relative to the financed amount, and up to 5 for an own contribution of about 20% of project cost.</td></tr>
+<tr><td>Customer demand</td><td>10</td><td>Demand evidence rating ÷ 5 × 10.</td></tr>
+<tr><td>Management experience</td><td>10</td><td>Years of experience, capped at 10 years.</td></tr>
+</tbody></table></div>
+<div class="tw"><table>
+<thead><tr><th>Score</th><th>Status</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>75–100</td><td>Funding-ready</td><td>Fundamentals are strong. Move to term-sheet conversations and document preparation.</td></tr>
+<tr><td>55–74</td><td>Nearly ready</td><td>A few gaps to close. Address the weakest areas first.</td></tr>
+<tr><td>35–54</td><td>Foundation building</td><td>Smaller, asset-backed steps may be possible. Strengthen records, cash flow and security.</td></tr>
+<tr><td>Below 35</td><td>Pre-funding preparation</td><td>Work through the Commerce pathway before taking on a commitment.</td></tr>
+</tbody></table></div>
+<p>The panel beside the ring lists every component as a bar and spells out <b>priority gaps</b>: any component below 60% of its points, with a concrete action. The "picture completeness" figure tells you how many components were based on information you entered.</p>
+</section>
+
+<section id="compare">
+<h2>6. Stage 3: Compare</h2>
+<p>Compare runs the <em>same</em> financed amount, term and project return through all four structures so you see like with like. It needs a project cost and term from Clarity; the risk matrix is available even before.</p>
+<h3>What you see</h3>
+<ul>
+  <li><b>Summary tiles:</b> amount financed, term, project return assumed and your monthly cash-flow base.</li>
+  <li><b>Comparison table:</b> payment nature (fixed or moves with results), average monthly outflow, peak month, total expected cost, effective annual cost and DSCR for each structure.</li>
+  <li><b>"What happens if results change?" chart and table:</b> financing cost and the business's net result under expected, downside and stress outcomes.</li>
+  <li><b>Risk matrix:</b> for seven risk areas it shows whether the Financier, the Business or both (Shared) carry the risk.</li>
+</ul>
+<h3 id="numbers">How the numbers are calculated</h3>
+<div class="formula"><b>Amount financed (F)</b> = Total project cost − your own contribution. Term in years = months ÷ 12. An arrangement fee (% of F) is added to every structure.</div>
+<div class="formula"><b>Murabaha:</b> total markup = F × markup rate × years (flat). Monthly instalment = (F + markup) ÷ months. Price is fixed for the whole term.</div>
+<div class="formula"><b>Ijarah:</b> monthly rental is a declining-balance (annuity) payment on F at the rental rate, plus a monthly takaful charge of F × takaful % ÷ 12. Total cost = total rentals − F + takaful.</div>
+<div class="formula"><b>Musharakah (diminishing):</b> each month the business buys back F ÷ months of the financier's units. The financier's profit share each month = outstanding units × project return ÷ 12. Payments flex as results change; in a loss the financier absorbs its capital share.</div>
+<div class="formula"><b>Mudarabah:</b> total profit on funded capital = F × return × years. The capital provider receives its agreed share, paid monthly, and capital is returned at the end (reduced by any genuine loss). In a loss year the capital provider carries the financial loss and the business loses its effort.</div>
+<div class="formula"><b>Effective annual cost</b> converts each structure's real monthly cash flows into a declining-balance annual rate so a flat Murabaha markup can be compared fairly with an Ijarah rental or a profit share. A flat 8% Murabaha markup over four years is roughly 16% effective.</div>
+<div class="formula"><b>DSCR</b> (debt service coverage) = monthly operating cash flow ÷ (existing monthly debt + this structure's average monthly outflow). Aim for 1.3x or higher; below 1.1x is weak.</div>
+<div class="formula"><b>Business net result</b> = project profit on the financed capital − cost of financing. For Mudarabah in a loss scenario, only the arrangement fee is lost because the capital provider bears the financial loss.</div>
+<p><b>Scenarios.</b> Expected uses your project return. Downside uses that return multiplied by the downside factor (default 40%). Stress uses a fixed return (default −10% a year). Fixed-payment structures charge the same in every scenario, which is exactly the risk-sharing difference this chart is built to reveal.</p>
+
+<h3 id="assump">Planning assumptions</h3>
+<p>At the bottom of Compare, seven editable assumptions drive the figures:</p>
+<div class="tw"><table>
+<thead><tr><th>Assumption</th><th>Default</th><th>Typical planning range*</th></tr></thead>
+<tbody>
+<tr><td>Murabaha markup (% a year, flat)</td><td>8</td><td>5–11</td></tr>
+<tr><td>Ijarah rental rate (% a year, declining)</td><td>8.5</td><td>6–10</td></tr>
+<tr><td>Arrangement fee (% of financing)</td><td>1</td><td>0.5–2</td></tr>
+<tr><td>Takaful / insurance (% a year)</td><td>0.5</td><td>0.3–1</td></tr>
+<tr><td>Mudarabah capital provider profit share (%)</td><td>35</td><td>25–50</td></tr>
+<tr><td>Downside case: profit as % of expected</td><td>40</td><td>20–60</td></tr>
+<tr><td>Stress case: project return (% a year)</td><td>−10</td><td>−20 to 0</td></tr>
+</tbody></table></div>
+<p style="font-size:.84rem;color:var(--muted)">*Indicative planning ranges only, not market quotes. Pricing varies by country, provider, benchmark rates, tenor and security.</p>
+<div class="callout warn"><b class="t">Replace defaults with real quotes</b>Once a provider or partner gives you indicative terms, type them into the assumptions. The whole app recalculates immediately. <span class="k light">Reset assumptions</span> restores the defaults.</div>
+</section>
+
+<section id="contract">
+<h2>7. Stage 4: Contract</h2>
+<p>This stage answers "which structure suits us?" and "how does it actually operate?"</p>
+<h3>The recommendation</h3>
+<p>The top card names the best-fit structure, a confidence level and the main reasons. Below it, four ranked cards show each structure's fit score (0–100), its strongest reasons and its main caution. Click a card, or use the buttons beneath, to study any structure in detail. Your choice is remembered and also drives the Commerce stage and the Operations Brief PDF.</p>
+<div class="callout tip"><b class="t">Hybrid flag</b>When the top two scores are within a few points, the app suggests considering a hybrid. Many businesses finance a tangible asset with Murabaha or Ijarah and fund growth or working capital with a partnership structure.</div>
+<h3 id="fitlogic">How best fit is chosen</h3>
+<p>Each structure starts from a base score and gains or loses points from your answers, for example:</p>
+<ul>
+  <li><b>Murabaha</b> gains from asset or stock purchases, an identifiable asset, a preference for fixed payments, a wish to keep full control and comfortable cash-flow cover. It loses for pure working capital, thin cash flow and early-stage businesses.</li>
+  <li><b>Ijarah</b> gains from leasable assets (equipment, vehicles, premises), low upfront outlay and comfortable cover. It loses for consumable stock and working capital.</li>
+  <li><b>Musharakah</b> gains from growth or project purposes, strong records, openness to sharing ownership, an established track record and thin fixed-payment capacity. It loses sharply for weak records or a wish to keep full control.</li>
+  <li><b>Mudarabah</b> gains for new ventures, trusted track records, strong records, experienced managers and an identified capital provider. It loses with weak records, no capital provider or a need for certain payments.</li>
+</ul>
+<p>Raw points are scaled to a 0–100 fit score. <b>Confidence</b> reflects data quality: <b>High</b> when at least 85% of nine key inputs are filled and the top structure leads by 10+ points, <b>Moderate</b> at 65% or more, otherwise <b>Exploratory</b>. The nine inputs are: use of funds, stage, identifiable asset, willingness to share, fixed-payment preference, capital partner, records quality, project cost and term.</p>
+<h3>Operational details for the selected structure</h3>
+<ul>
+  <li><b>Key numbers</b> for your case: average monthly outflow, total cost, effective annual cost and cash-flow cover.</li>
+  <li><b>Step-by-step operation</b> from first request to closing out the contract.</li>
+  <li><b>Documents to prepare,</b> the <b>Shariah conditions to confirm,</b> each side's <b>obligations</b> and <b>red flags</b> to watch for.</li>
+  <li><b>Accounting treatment</b> so finance staff and auditors know what to expect.</li>
+</ul>
+</section>
+
+<section id="commerce">
+<h2>8. Stage 5: Commerce</h2>
+<p>A financing structure only works if the business is healthy enough to carry it and customers keep needing what it sells. This stage turns the choice into a sustainable pathway for the structure you selected in Contract.</p>
+<h3>Sustainability indicators</h3>
+<div class="tw"><table>
+<thead><tr><th>Indicator</th><th>Meaning and guide</th></tr></thead>
+<tbody>
+<tr><td>Average monthly outflow</td><td>What the structure costs you each month, including capital repayment or unit buy-out.</td></tr>
+<tr><td>Cash-flow cover (DSCR)</td><td>1.3x or higher is healthy; 1.1–1.3x is tight; below 1.1x is weak.</td></tr>
+<tr><td>Payments as % of revenue</td><td>A 15% guide: annual outflow ÷ annual revenue.</td></tr>
+<tr><td>Reserve cover</td><td>Cash reserves ÷ monthly outflow. Aim for three months or more.</td></tr>
+<tr><td>Return needed to break even</td><td>For fixed structures, the project return needed on financed capital just to cover cost. Partnership structures show "None fixed" because payments flex.</td></tr>
+<tr><td>Effective annual cost</td><td>Declining-balance equivalent in the expected case.</td></tr>
+<tr><td>Customer-need alignment</td><td>Average of demand evidence, repeat-customer share (80% repeat = full marks) and whether you described the customer need.</td></tr>
+</tbody></table></div>
+<h3>Stress test</h3>
+<p>Shows financing cost and your net result under expected, downside and stress returns for the selected structure. Use it to ask: <em>could we survive the stress case, and who would carry the loss?</em></p>
+<h3>Three-horizon roadmap</h3>
+<ul>
+  <li><b>Next 90 days: Clarity and preparation.</b> Actions drawn from your weakest readiness components, plus obtaining quotes and Shariah review.</li>
+  <li><b>3–12 months: Execute the contract well.</b> Implementation steps specific to the selected structure, a customer-service promise to track and a payment reserve target.</li>
+  <li><b>12–36 months: Sustain and grow.</b> Annual re-run, customer diversification, zakat and charity routines and an end-of-term plan.</li>
+</ul>
+<p>Each action has a checkbox. Ticks are saved in your browser, so you can use the roadmap as a living checklist.</p>
+</section>
+
+<section id="reports">
+<h2>9. PDF reports</h2>
+<p>All reports are created in your browser. Nothing is uploaded. Files download with a name that includes the report type and the client name.</p>
+<div class="cards">
+<div class="card"><h4>Funding Findings Report</h4><p>The full document: executive summary, Creed screen, business status and readiness, cost comparison, scenarios, risk matrix, fit ranking, the recommended structure's operating steps and documents, and the sustainability roadmap. Typically 4 pages. Also available from the top-bar <span class="k light">Download PDF Report</span> button.</p></div>
+<div class="card"><h4>Structure Operations Brief</h4><p>A working guide for the structure currently selected in Contract: how it works, risk allocation, obligations, a tick-box documents checklist, Shariah conditions, red flags and accounting treatment. Good for briefing a team or discussing terms with a provider.</p></div>
+<div class="card"><h4>One-Page Client Snapshot</h4><p>The ask, readiness status, recommended structure, headline economics, reasons and the first three actions on a single page. Ideal for a client, board or capital partner who will not read the full report.</p></div>
+<div class="card"><h4>Print view</h4><p>The <span class="k light">Print</span> button prints every stage in sequence with navigation hidden. It also serves as a backup route to a PDF.</p></div>
+</div>
+<div class="callout tip"><b class="t">Before you send a report</b>Check that the SAMPLE DATA watermark is absent (use Remove Sample Data first), that the client name and preparer are filled in, and that the planning assumptions have been replaced with real quotes where you have them.</div>
+</section>
+
+<section id="workflows">
+<h2>10. Workflows by role</h2>
+<h3>SME owner or founder</h3>
+<ol class="steps">
+  <li>Complete the Creed screen honestly and write your purpose statement.</li>
+  <li>Enter your real numbers in Clarity. Fix the priority gaps if the score is below 55.</li>
+  <li>Study Compare and the stress test. Ask: can I carry the fixed payments if sales fall?</li>
+  <li>Read the operating steps and red flags for your top two structures in Contract.</li>
+  <li>Take the Operations Brief to providers or partners and ask for quotes. Enter them as assumptions and re-run.</li>
+  <li>Use the Commerce roadmap as your monthly checklist after funding.</li>
+</ol>
+<h3>Investment or business consultant</h3>
+<ol class="steps">
+  <li>Open a client session, enter the client name and your name, then gather the Clarity inputs in an interview.</li>
+  <li>Use the risk matrix to explain, in plain language, who carries which risk under each structure.</li>
+  <li>Adjust assumptions live with the client to show how pricing changes affect outflow and effective cost.</li>
+  <li>Deliver the Findings Report and the one-page Snapshot. Use <span class="k light">Export inputs (JSON)</span> on the Reports tab to keep a case file, then <span class="k red">Remove Sample Data</span> to clear the screen before the next client.</li>
+  <li>To reopen a case later, use <b>Import inputs</b> on the Reports tab.</li>
+</ol>
+<div class="callout stop"><b class="t">Confidentiality</b>Entries stay in the browser of the device you are using. On a shared computer, export what you need, then clear the form before leaving.</div>
+<h3>Capital provider</h3>
+<p>Use Compare and the risk matrix to see how your exposure changes between a fixed-return sale or lease and a profit-and-loss partnership, and use the Operations Brief to prepare the right documents and conditions.</p>
+</section>
+
+<section id="data">
+<h2>11. Saving, privacy and sample data</h2>
+<ul>
+  <li><b>Automatic saving.</b> Every change is saved in your browser's local storage on that device. Closing and reopening the page keeps your work.</li>
+  <li><b>No uploads.</b> There is no server, account or database. Nothing leaves your device.</li>
+  <li><b>Different browser or device = empty app.</b> Use <b>Export inputs (JSON)</b> to move a case, and <b>Import inputs</b> to load it elsewhere.</li>
+  <li><b>Private or cleared browsing</b> can erase saved data. Export anything important.</li>
+  <li><b>Remove Sample Data</b> wipes everything, not just sample values. Export first if you want to keep a case.</li>
+</ul>
+</section>
+
+<section id="models">
+<h2>12. The four structures at a glance</h2>
+<div class="tw"><table>
+<thead><tr><th></th><th>Murabaha</th><th>Ijarah</th><th>Musharakah</th><th>Mudarabah</th></tr></thead>
+<tbody>
+<tr><td><b>What it is</b></td><td>Cost-plus sale; price fixed, paid in instalments</td><td>Lease of an asset the financier owns</td><td>Joint ownership; business buys out the financier gradually</td><td>Financier supplies capital, business supplies skill</td></tr>
+<tr><td><b>Return basis</b></td><td>Disclosed mark-up</td><td>Rentals</td><td>Share of actual profit</td><td>Share of actual profit</td></tr>
+<tr><td><b>Payments</b></td><td>Fixed</td><td>Fixed or benchmarked</td><td>Flex with results</td><td>Flex with results</td></tr>
+<tr><td><b>Who bears loss</b></td><td>Business</td><td>Business (financier bears asset loss)</td><td>Both, by capital share</td><td>Financier (absent negligence)</td></tr>
+<tr><td><b>Control</b></td><td>Business</td><td>Business uses the asset</td><td>Shared per deed</td><td>Business manages</td></tr>
+<tr><td><b>Best for</b></td><td>Equipment, stock</td><td>Equipment, fleets, premises</td><td>Expansion, projects, property</td><td>New ventures, trading</td></tr>
+<tr><td><b>Watch out for</b></td><td>Cash-raising without an asset</td><td>Title passing inside the lease</td><td>Weak records, deadlock</td><td>Guaranteed returns, no capital provider</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="deploy">
+<h2>13. Deploy with GitHub and Vercel</h2>
+<p>The app is plain HTML, CSS and JavaScript with no build step.</p>
+<h3>Files</h3>
+<ul>
+<li><code>index.html</code>: the app</li>
+<li><code>manual.html</code>: this manual</li>
+<li><code>vendor/jspdf.umd.min.js</code>: the PDF library (keep this folder beside index.html)</li>
+<li><code>vercel.json</code>, <code>README.md</code>, <code>.gitignore</code></li>
+</ul>
+<h3>Steps</h3>
+<ol class="steps">
+  <li>Create a new empty repository on GitHub, for example <code>islamic-funding-navigator</code>.</li>
+  <li>In the project folder run: <code>git init</code>, <code>git add .</code>, <code>git commit -m "Funding Navigator"</code>, <code>git branch -M main</code>.</li>
+  <li>Add your repository: <code>git remote add origin https://github.com/YOUR-USER/islamic-funding-navigator.git</code> then <code>git push -u origin main</code>.</li>
+  <li>In Vercel choose <b>Add New → Project</b> and import the repository.</li>
+  <li>Set <b>Framework Preset: Other</b>. Leave build command and output directory empty. Click <b>Deploy</b>.</li>
+  <li>Your app is live at the Vercel address; the manual is at <code>/manual</code>. Every future push to <code>main</code> redeploys automatically.</li>
+</ol>
+<div class="callout tip"><b class="t">Custom domain</b>In your Vercel project open <b>Settings → Domains</b> to attach your own domain or subdomain.</div>
+</section>
+
+<section id="custom">
+<h2>14. Customising</h2>
+<ul>
+  <li><b>Default pricing:</b> edit <code>DEF_ASSUMP</code> near the top of the script in <code>index.html</code>.</li>
+  <li><b>Structure content</b> (steps, documents, conditions, red flags): edit the <code>MODELS</code> object.</li>
+  <li><b>Fit-scoring rules:</b> edit the <code>fit()</code> function. Each rule is a condition, a point change and a plain-language reason.</li>
+  <li><b>Readiness weights:</b> edit the <code>readiness()</code> function.</li>
+  <li><b>Colours and fonts:</b> change the variables at the top of the style block (<code>--green</code>, <code>--gold</code>, <code>--brown</code>, fonts).</li>
+  <li><b>Sectors list:</b> edit the Sector drop-down in the Clarity section.</li>
+</ul>
+<div class="callout warn"><b class="t">Have changes reviewed</b>If you change structure content or the Shariah conditions, have a qualified scholar review the new wording before you share or sell the app.</div>
+</section>
+
+<section id="trouble">
+<h2>15. Troubleshooting and FAQ</h2>
+<dl>
+<dt>The comparison table is empty.</dt><dd>Enter a total project cost and a term (in months) in Clarity. The risk matrix works without them.</dd>
+<dt>The recommendation says "Exploratory".</dt><dd>Several key inputs are blank. Complete use of funds, stage, asset, willingness to share, payment preference, capital partner and records quality.</dd>
+<dt>The PDF button says the library did not load.</dt><dd>Make sure the <code>vendor</code> folder with <code>jspdf.umd.min.js</code> sits next to <code>index.html</code> (and was deployed). As a fallback, use <b>Print</b> and choose "Save as PDF".</dd>
+<dt>My data vanished.</dt><dd>Data lives in one browser on one device. A different browser, a private window or cleared site data starts blank. Use Export and Import.</dd>
+<dt>The sample banner is still showing after I changed the numbers.</dt><dd>That is by design. Editing sample values does not make them real. Use Remove Sample Data, then enter your own.</dd>
+<dt>Why is effective cost so much higher than the quoted rate?</dt><dd>A flat rate is charged on the original amount for the whole term, while the balance falls as you repay. The effective rate corrects for that so structures can be compared fairly.</dd>
+<dt>Why does Musharakah show a high effective cost?</dt><dd>Its cost reflects the project's actual profit. With an 18% expected return, the financier's profit share is high in the expected case. In weaker cases it falls or turns into a shared loss.</dd>
+<dt>Why does Mudarabah show a huge peak month?</dt><dd>Capital is returned in full at the end of the term. Plan a reserve or negotiate staged capital return.</dd>
+<dt>Does the app give a fatwa or approve a contract?</dt><dd>No. It is an educational planning aid. Shariah compliance is decided by a qualified scholar or Shariah board on the actual contract.</dd>
+<dt>Does the arrangement fee belong in a Murabaha?</dt><dd>Real providers differ on fees and what they cover. Treat the fee as a placeholder and check the actual fee schedule.</dd>
+</dl>
+</section>
+
+<section id="glossary">
+<h2>16. Glossary</h2>
+<dl>
+<dt>Gharar</dt><dd>Excessive uncertainty in a contract. Terms must be clear before signing.</dd>
+<dt>Ibra'</dt><dd>A rebate or waiver the financier may give, for example on early settlement.</dd>
+<dt>Ijarah / Ijarah Muntahia Bittamleek</dt><dd>Lease / lease ending in transfer of ownership through a separate undertaking.</dd>
+<dt>Mudarabah, Mudarib, Rabb-ul-mal</dt><dd>Profit-sharing partnership; the managing party; the capital provider.</dd>
+<dt>Murabaha</dt><dd>A sale where the seller discloses cost and adds an agreed profit.</dd>
+<dt>Musharakah / Diminishing Musharakah</dt><dd>Partnership where all parties contribute capital; in the diminishing form the business buys out the financier over time.</dd>
+<dt>Riba</dt><dd>Interest or an unjustified increase on a loan; avoided in all four structures.</dd>
+<dt>Takaful</dt><dd>Cooperative, Shariah-compliant insurance.</dd>
+<dt>Tawarruq</dt><dd>A cash-raising arrangement using commodity sales; scholars differ on its use, so seek board approval.</dd>
+<dt>Wa'd</dt><dd>A promise, such as a promise to purchase or lease.</dd>
+<dt>Zakat</dt><dd>Obligatory annual charity on eligible wealth, including certain business assets.</dd>
+<dt>DSCR</dt><dd>Debt service coverage ratio: cash available for payments divided by the payments due.</dd>
+<dt>Effective annual cost</dt><dd>A declining-balance annual rate that makes different structures comparable.</dd>
+</dl>
+</section>
+
+<section id="notice">
+<h2>17. Important notice</h2>
+<p>The Islamic Business Funding Navigator is an educational planning tool. Its calculations are indicative, use assumptions you can edit and are not quotes. It is not a fatwa, and it does not provide Shariah, legal, tax, accounting or investment advice. Rulings differ between scholars, schools and jurisdictions. Before signing any financing or partnership contract, have it reviewed by a qualified Shariah scholar or board and by a licensed legal and financial professional.</p>
+</section>
+</main>
+</div>
+
+<footer>
+  <b>Creed-to-Commerce™</b> &nbsp;·&nbsp; The Balanced Middle Path Academy, LLC (BMPA)<br>
+  Islamic Business Funding Navigator: User Manual &nbsp;·&nbsp; <a href="index.html" style="color:#f3e6c4">Open the app</a>
+</footer>
+</body>
+</html>
